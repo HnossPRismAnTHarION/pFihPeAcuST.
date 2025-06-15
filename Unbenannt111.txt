@@ -1,0 +1,482 @@
+
+
+Wikipedia The Free Encyclopedia
+
+    Donate
+    Create account
+    Log in
+
+Contents
+(Top)
+List of Supranational Open Government Data Sites
+
+List of national-level open government data sites
+
+        Unofficial National-level Data Sites
+    List of Subnational Open Government Data Sites
+    List of Municipal Open Government Data Sites
+    See also
+    External links
+    References
+
+List of open government data sites
+
+    Article
+    Talk
+
+    Read
+    Edit
+    View history
+
+Tools
+
+Appearance
+Text
+
+    Small
+    Standard
+    Large
+
+Width
+
+    Standard
+    Wide
+
+Color (beta)
+
+    Automatic
+    Light
+    Dark
+
+From Wikipedia, the free encyclopedia
+This is a dynamic list and may never be able to satisfy particular standards for completeness. You can help by adding missing items with reliable sources.
+
+Many governments publish open data they produce or commission on official websites to be freely used, reused, or redistributed by anyone.[1][2] These sites are often created as part of open government initiatives.
+
+Some open data sites like CKAN and DKAN are open source data portal solutions where as others like Socrata are proprietary data portal solutions.
+
+The data sites provide interfaces based on Data and Metadata standards like Dublin core.
+List of Supranational Open Government Data Sites
+Organization 	Website
+Asia Open Data Partnership 	https://dataportal.asia/home
+ASEAN 	https://data.aseanstats.org/
+European Union 	https://data.europa.eu/en
+Global Covenant of Mayors 	https://dataportalforcities.org/
+International Monetary Fund 	https://data.imf.org/
+OECD 	https://data.oecd.org/
+Pacific Community 	https://pacificdata.org/
+United Nations 	https://data.un.org/
+
+UNESCO: http://data.uis.unesco.org/
+
+OCHA: https://data.humdata.org/
+World Bank 	https://data.worldbank.org/
+World Health Organization 	https://www.who.int/data/
+World Trade Organization 	https://data.wto.org/
+List of national-level open government data sites
+Government 	Website 	Portal Solution
+Argentina 	https://datos.gob.ar/ 	CKAN
+Australia 	https://data.gov.au/ 	CKAN
+Austria 	https://www.data.gv.at/ 	
+Azerbaijan 	https://www.opendata.az/ 	Custom
+Bahrain 	https://www.data.gov.bh/ 	
+Bangladesh 	http://data.gov.bd/ 	
+Belarus 	https://opendata.by/ 	
+Belgium 	http://data.gov.be/ 	
+Bosnia and Herzegovina 	https://cbbh.ba/Content/Read/1133# 	
+Brazil 	https://dados.gov.br/ 	
+Brunei 	https://www.data.gov.bn/ 	
+Bulgaria 	https://data.egov.bg/ 	
+Burkina Faso 	https://www.data.gov.bf/ 	
+Canada 	https://open.canada.ca/en/open-data/ 	
+Chile 	https://datos.gob.cl/ 	
+China 	https://data.stats.gov.cn/english/ 	
+Colombia 	https://www.datos.gov.co/ 	
+Cook Islands 	https://pacificdata.org/data/organization/government-of-the-cook-islands 	
+Croatia 	http://data.gov.hr/ 	
+Cyprus 	https://www.data.gov.cy/ 	
+Czech Republic 	https://data.gov.cz/english/ 	
+Denmark 	https://www.opendata.dk/ 	CKAN
+Ecuador 	http://catalogo.datosabiertos.gob.ec/en/ 	
+Estonia 	https://avaandmed.eesti.ee/ 	
+Fiji 	https://pacificdata.org/data/organization/government-of-fiji 	
+Finland 	https://www.avoindata.fi/en 	
+France 	https://www.data.gouv.fr/fr/ 	
+Georgia 	https://www.data.gov.ge/ 	
+Germany 	https://www.govdata.de/ 	
+Ghana 	https://data.gov.gh/ 	
+Greece 	https://data.gov.gr/ 	
+Guatemala 	http://datos.gob.gt/ 	
+Honduras 	https://datos.gob.hn/ 	
+Hungary 	http://opendata.hu/ 	
+Iceland 	https://vefur.island.is/en/open-data/ 	
+India 	https://data.gov.in/ 	
+Indonesia 	https://data.go.id/ 	
+Iran 	https://data.gov.ir/ 	
+Ireland 	https://data.gov.ie/ 	
+Israel 	https://info.data.gov.il/datagov/home/ 	
+Italy 	https://www.dati.gov.it/ 	CKAN
+Jamaica 	https://data.gov.jm/ 	DKAN
+Japan 	https://www.data.go.jp/ 	CKAN
+Jordan 	https://portal.jordan.gov.jo/wps/portal/OpenData 	Custom
+Kazakhstan 	https://data.egov.kz/ 	Custom
+Kiribati 	https://pacificdata.org/data/organization/government-of-kiribati 	
+Korea, South 	https://www.data.go.kr/en/index.do 	Custom
+Kuwait 	https://e.gov.kw/sites/kgoenglish/Pages/OtherTopics/OpenData.aspx 	Custom
+Kyrgyzstan 	https://www.stat.gov.kg/en/opendata/ 	
+Latvia 	https://data.gov.lv/eng 	CKAN
+Lithuania 	https://data.gov.lt/ 	
+Luxembourg 	https://data.public.lu/en/ 	
+Macedonia 	https://vlada.mk/node/18908?ln=en-gb 	
+Malaysia 	https://www.data.gov.my/ 	
+Malta 	https://data.gov.mt/ 	
+Marshall Islands 	https://pacificdata.org/data/organization/government-of-the-marshall-islands 	
+Mauritius 	https://data.govmu.org/dkan/ 	
+Mexico 	https://datos.gob.mx/ 	
+Micronesia 	https://pacificdata.org/data/organization/government-of-the-federated-states-of-micronesia 	
+Moldova 	https://data.gov.md/ 	
+Mongolia 	http://opendata.burtgel.gov.mn/ 	
+Morocco 	http://data.gov.ma/ 	
+Namibia 	https://nsa.org.na/page/open-data-portal 	
+Nauru 	https://pacificdata.org/data/organization/government-of-the-republic-of-nauru 	
+Nepal 	http://nationaldata.gov.np/ 	
+Netherlands 	https://data.overheid.nl/ 	
+New Zealand 	https://www.data.govt.nz/ 	
+Niue 	https://pacificdata.org/data/organization/government-of-niue 	
+Norway 	https://data.norge.no/ 	
+Oman 	https://data.gov.om/
+
+https://omanportal.gov.om/wps/portal/index/opendata/
+	
+Palau 	https://pacificdata.org/data/organization/government-of-palau 	
+Palestine 	http://opendata.ps/ 	
+Panama 	https://www.datosabiertos.gob.pa/ 	
+Papua New Guinea 	https://pacificdata.org/data/organization/government-of-papua-new-guinea 	
+Paraguay 	http://www.gobiernoabierto.gov.py/
+
+http://datos.gov.py/
+	CKAN
+Peru 	https://www.datosabiertos.gob.pe/ 	
+Philippines 	https://data.gov.ph/ 	
+Poland 	https://stat.gov.pl/en/ 	
+Portugal 	https://dados.gov.pt/en/ 	
+Qatar 	https://www.data.gov.qa/ 	
+Romania 	https://data.gov.ro/ 	
+Russia 	https://data.gov.ru/?language=en 	
+Rwanda 	Under Development[3] 	
+Saint Lucia 	https://data.govt.lc/ 	
+Saudi Arabia 	https://data.gov.sa/en/
+
+    Open.data.gov.sa
+
+	
+Serbia 	https://data.gov.rs/ 	
+Sierra Leone 	https://opendatasl.gov.sl/ 	
+Singapore 	https://data.gov.sg/ 	
+Slovakia 	https://data.gov.sk/en/ 	
+Slovenia 	https://podatki.gov.si/ 	
+Solomon Islands 	https://pacificdata.org/data/organization/government-of-solomon-islands 	
+Spain 	https://datos.gob.es/en 	
+Sri Lanka 	http://www.data.gov.lk/ 	
+Sweden 	https://www.dataportal.se/en/ 	
+Switzerland 	https://opendata.swiss/en/ 	
+Taiwan 	https://data.gov.tw/en 	
+Tanzania 	http://opendata.go.tz/ 	
+Thailand 	https://data.go.th/ 	
+Tokelau 	https://pacificdata.org/data/organization/government-of-tokelau 	
+Trinidad and Tobago 	https://data.gov.tt/ 	
+Tunisia 	http://www.data.gov.tn/ 	
+Tuvalu 	https://pacificdata.org/data/organization/government-of-tuvalu 	
+Ukraine 	https://data.gov.ua/ 	
+United Arab Emirates 	https://bayanat.ae/ 	
+United Kingdom 	https://data.gov.uk/ 	
+United States 	https://data.gov/ 	CKAN
+Uruguay 	https://catalogodatos.gub.uy/ 	CKAN
+Uzbekistan 	https://data.gov.uz/en 	
+Vanuatu 	https://pacificdata.org/data/organization/government-of-vanuatu 	
+Venezuela 	http://www.datos.gob.ve/ 	
+Vietnam 	https://data.gov.vn/ 	
+Unofficial National-level Data Sites
+
+Some countries have unofficial open data portals created citizen initiatives or published by non-governmental organizations.
+Country 	Website 	Publisher 	Portal Solution
+Albania 	http://open.data.al/ 	Albanian Institute of Science 	
+Algeria 	https://algeria.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/algeria 	Code for Africa 	CKAN
+Angola 	https://angola.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/angola 	Code for Africa 	CKAN
+Austria 	https://www.opendataportal.at/ 	Wikimedia Osterreich, Open Knowledge Osterreich, Danube University 	CKAN
+Benin 	https://benin.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/benin 	Code for Africa 	
+Botswana 	https://botswana.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/botswana 	Code for Africa 	
+Burkina Faso 	https://burkinafaso.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/burkina-faso 	Code for Africa 	
+Burundi 	https://burundi.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/burundi 	Code for Africa 	
+Cameroon 	https://cameroon.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/cameroon 	Code for Africa 	
+Cape Verde 	https://caboverde.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/cape-verde 	Code for Africa 	
+Central African Republic 	https://car.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/central-african-republic 	Code for Africa 	
+Chad 	https://chad.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/chad 	Code for Africa 	
+Comoros 	https://comoros.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/comoros 	Code for Africa 	
+Congo, Democratic Republic of 	https://drcongo.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/democratic-republic-of-congo 	Code for Africa 	
+Congo, Republic of 	https://congo.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/republic-of-the-congo 	Code for Africa 	
+Djibouti 	https://djibouti.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/djibouti 	Code for Africa 	
+Egypt 	https://egypt.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/egypt 	Code for Africa 	
+http://www.erfdataportal.com/index.php/catalog 	Economic Research Forum 	
+Eritrea 	https://eritrea.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/eriteria 	Code for Africa 	
+Eswatini 	https://eswatini.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/swaziland 	Code for Africa 	
+Equatorial Guinea 	https://equatorialguinea.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/equatorial-guinea 	Code for Africa 	
+Ethiopia 	https://ethiopia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/ethiopia 	Code for Africa 	
+Gabon 	https://gabon.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/gabon 	Code for Africa 	
+Gambia 	https://gambia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/gambia 	Code for Africa 	
+Ghana 	https://ghana.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/ghana 	Code for Africa 	
+Guinea 	https://guinea.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/guniea 	Code for Africa 	
+Guinea Bissau 	https://guineabissau.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/guinea-bissau 	Code for Africa 	
+Italy 	http://www.datiopen.it// 			
+Ivory Coast 	https://cotedivoire.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/cote-d-ivoire 	Code for Africa 	
+Korea, South 	https://kosis.kr/index/index.do 	Korean Statistical Information Service 	
+Kenya 	https://kenya.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/kenya 	Code for Africa 	
+Kosovo 	https://opendatakosovo.org/ 	Open Data Kosovo 	
+Lebanon 	https://www.opendatalebanon.org/ 	Open Data Lebanon 	
+Lesotho 	https://lesotho.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/lesotho 	Code for Africa 	
+Liberia 	https://liberia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/liberia 	Code for Africa 	
+Libya 	https://libya.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/libya 	Code for Africa 	
+Madagascar 	https://madagascar.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/madagascar 	Code for Africa 	
+Malawi 	https://malawi.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/malawi 	Code for Africa 	
+Mali 	https://mali.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/mali 	Code for Africa 	
+Mauritania 	https://mauritania.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/mauritania 	Code for Africa 	
+Mauritius 	https://mauritius.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/mauritius 	Code for Africa 	
+Maldives 	https://maldives.opendataforafrica.org/ 	African Development Bank Group 	
+Morocco 	https://morocco.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/morocco 	Code for Africa 	
+Mozambique 	https://mozambique.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/mozambique 	Code for Africa 	
+Namibia 	https://nabibia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/namibia 	Code for Africa 	
+Nepal 	https://opendatanepal.com/ 	Open Knowledge Nepal 	
+http://data.opennepal.net/ 	Open Nepal 	
+Niger 	https://niger.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/niger 	Code for Africa 	
+Nigeria 	https://nigeria.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/nigeria 	Code for Africa 	
+Pakistan 	https://opendata.com.pk/ 	National Center for Big Data and Cloud Computing, Lahore University of Management Sciences, Higher Education Commission 	
+Portugal 	http://centraldedados.pt/ 	Transparencia Hackday Portugal 	
+Rwanda 	https://rwanda.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/rwanda 	Code for Africa 	
+Sao Tome and Principe 	https://saotome.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/sao-tome-and-principe 	Code for Africa 	
+Senegal 	https://senegal.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/senegal 	Code for Africa 	
+Seychelles 	https://seychelles.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/seychelles 	Code for Africa 	
+Sierra Leone 	https://sierraleone.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/sierra-leone 	Code for Africa 	
+Somalia 	https://somalia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/somalia 	Code for Africa 	
+South Africa 	https://southafrica.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/south-africa 	Code for Africa 	
+Sudan 	https://sudan.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/sudan 	Code for Africa 	
+Sudan, South 	https://southsudan.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/south-sudan 	Code for Africa 	
+Tanzania 	https://tanzania.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/tanzania 	Code for Africa 	
+Togo 	https://togo.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/togo 	Code for Africa 	
+Tunisia 	https://tunisia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/tunisia 	Code for Africa 	
+Turkey 	http://acikveri.sahinbey.bel.tr/dataset 	SahinBey Belediyesi 	
+Uganda 	https://uganda.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/uganda 	Code for Africa 	
+http://catalog.data.ug/ 	African Centre for Media Excellence 	
+Zambia 	https://zambia.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/zambia 	Code for Africa 	
+Zimbabwe 	https://zimbabwe.opendataforafrica.org/ 	African Development Bank Group 	
+https://africaopendata.org/group/zimbabwe 	Code for Africa 	
+List of Subnational Open Government Data Sites
+Country 	Government 	Website 	Portal Solution
+Australia 	New South Wales 	https://data.nsw.gov.au/ 	CKAN
+Austria 	Vorarlberg 	http://data.vorarlberg.gv.at/ 	
+Canada 	Alberta 	https://open.alberta.ca/ 	CKAN
+China 	Beijing 	http://data.beijing.gov.cn/ 	
+Guangdong 	http://gddata.gd.gov.cn/ 	
+Hong Kong 	https://data.gov.hk/ 	
+Shanghai 	https://data.sh.gov.cn/ 	
+Wuhan 	https://data.wuhan.gov.cn/ 	
+India 	Andhra Pradesh 	https://ap.data.gov.in/ 	
+Assam 	https://data.gov.in/state_utes/Assam 	
+Bihar 	https://data.gov.in/state_utes/Bihar 	
+Chhattisgarh 	https://data.gov.in/state_utes/Chhattisgarh 	
+Goa 	https://data.gov.in/state_utes/Goa 	
+Government of NCT of Delhi 	https://data.gov.in/state_utes/Government-of-NCT-of-Delhi 	
+Gujarat 	https://data.gov.in/state_utes/Gujarat 	
+Haryana 	https://data.gov.in/state_utes/Haryana 	
+Himachal Pradesh 	https://data.gov.in/state_utes/Himachal-Pradesh 	
+Karnataka 	https://karnataka.data.gov.in/ 	
+Kerala 	https://kerala.data.gov.in/ 	
+Madhya Pradesh 	https://data.gov.in/state_utes/Madhya-Pradesh 	
+Meghalaya 	https://data.gov.in/state_utes/Meghalaya 	
+Mizoram 	https://data.gov.in/state_utes/Mizoram 	
+Odisha 	https://odisha.data.gov.in/ 	
+Punjab 	https://punjab.data.gov.in/ 	
+Sikkim 	https://sikkim.data.gov.in/ 	
+Tamil Nadu 	https://tn.data.gov.in/ 	
+Tripura 	https://data.gov.in/state_utes/Tripura 	
+Uttarakhand 	https://uttarakhand.data.gov.in/ 	
+Iraq 	Kurdistan 	https://gov.krd/english/information-and-services/open-data/ 	
+Mexico 	Mexico 	http://datos.edomex.gob.mx/ 	CKAN
+Spain 	Aragon 	http://opendata.aragon.es/ 	CKAN
+United States 	Alabama 	https://open.alabama.gov/ 	
+Arizona 	https://azgeo-open-data-agic.hub.arcgis.com/ 	ArcGIS Hub
+California 	https://data.ca.gov/ 	CKAN
+Georgia 	https://data.georgia.gov/ 	
+New Jersey 	https://data.nj.gov 	Socrata
+New York 	https://data.ny.gov 	Socrata
+Oregon 	https://data.oregon.gov/ 	Socrata
+Washington 	https://data.wa.gov/ 	Socrata
+List of Municipal Open Government Data Sites
+Country 	Division 	City 	Website 	Portal Solution
+Argentina 		Buenos Aires 	http://data.buenosaires.gob.ar/ 	CKAN
+Brazil 	Sao Paulo 	Sao Paulo 	http://dados.prefeitura.sp.gov.br/ 	CKAN
+China 	Guangdong 	Shenzhen 	https://opendata.sz.gov.cn/ 	Custom
+Denmark 	Capital 	Copenhagen 	https://data.kk.dk/ 	CKAN
+Italy 	Lazio 	Rome 	https://dati.comune.roma.it/ 	Custom
+Liguria 		https://www.regione.liguria.it/homepage-opendata.html
+
+https://dati.comune.genova.it/
+	
+Lazio 		https://dati.lazio.it/ 	
+Lombardy 		https://dati.lombardia.it/
+
+https://dati.comune.milano.it/
+	
+Emilia-Romagna 		https://dati.emilia-romagna.it
+
+https://opendata.comune.bologna.it//
+	
+Sicily 	Palermo 	https://opendata.comune.palermo.it/ 	
+Tuscany 		https://dati.toscana.it/
+
+https://opendata.comune.fi.it/
+
+http://opendata.lucca.it/
+	
+Veneto 		https://dati.veneto.it/ 	
+Puglia 	Bari 	https://opendata.comune.bari.it/ 	
+Germany 	Berlin 	Berlin 	https://daten.berlin.de/ 	CKAN
+Westphalia 	Gelsenkirchen 	https://opendata.gelsenkirchen.de/ 	
+Japan 		Tokyo 	https://portal.data.metro.tokyo.lg.jp/ 	Custom
+Osaka Prefecture 	Osaka 	https://data.city.osaka.lg.jp/ 	CKAN
+Korea, South 	Seoul Capital Area 	Seoul 	https://data.seoul.go.kr/ 	Custom
+Yeongnam 	Busan 	http://opendata.busan.go.kr/ 	
+Mexico 	Mexico 	Mexico City 	https://datos.cdmx.gob.mx/ 	CKAN
+Netherlands 	North Holland 	Amsterdam 	https://data.amsterdam.nl/ 	CKAN
+South Africa 	Western Cape Province 	City of Cape Town 	https://odp-cctegis.opendata.arcgis.com/ 	ArcGIS Hub
+Kwa-Zulu Natal 	Ethekwini Municipality 	https://gis-ethekwini.opendata.arcgis.com/ 	ArcGIS Hub
+Gauteng Province 	Gauteng 	https://gisportal.gauteng.gov.za/portal/home/ 	ArcGIS Hub 	
+Spain 	Catalonia 	Tarragona 	http://opendata.tarragona.cat/ 	
+Terrassa 	http://opendata.terrassa.cat/ 	
+Turkey 	Istanbul 	Istanbul 	https://data.ibb.gov.tr/ 	
+United Kingdom 	Bristol 	Bristol 	https://opendata.bristol.gov.uk/ 	
+Somerset 	Bath 	https://data.bathhacked.org/ 	
+United States 		Washington DC 	https://opendata.dc.gov/ 	ArcGIS Hub
+Arizona 	Phoenix 	https://www.phoenixopendata.com/ 	CKAN
+
+OpenGov
+Glendale 	https://opendata.glendaleaz.com/ 	ArcGIS Hub
+California 	Los Angeles 	https://data.lacity.org/ 	Socrata
+San Diego 	https://data.sandiego.gov/ 	Custom
+San Jose 	https://data.sanjoseca.gov/ 	CKAN
+
+OpenGov
+Hawaii 	Honolulu 	https://data.honolulu.gov/ 	Socrata
+Idaho 	Boise 	https://opendata.cityofboise.org/ 	ArcGIS Hub
+Illinois 	Chicago 	https://data.cityofchicago.org/ 	Socrata
+Michigan 	Ann Arbor 	https://www.a2gov.org/services/data/Pages/default.aspx 	Custom
+New Jersey 	Newark 	https://data.ci.newark.nj.us 	CKAN
+
+OpenGov
+New York 	New York City 	https://opendata.cityofnewyork.us/ 	Socrata
+Pennsylvania 	Philadelphia 	https://www.opendataphilly.org/ 	CKAN
+Tennessee 	Chattanooga 	https://data.chattlibrary.org/ 	Socrata
+Texas 	Dallas 	https://www.dallasopendata.com/ 	Socrata
+Houston 	http://data.houstontx.gov/ 	
+San Antonio 	https://data.sanantonio.gov/ 	CKAN
+Multiple 	http://www.civicdata.io/ 	CKAN
+See also
+
+    CKAN
+    Data.gov
+    List of datasets for machine-learning research
+    Open data
+    Open government
+    Open Government Initiative
+    Open Knowledge Foundation
+    Smart city
+    Socrata
+
+External links
+
+    Data.gov List of Open Data Portals
+    DataPortals.org
+    Global Open Data Index
+    Open Data Inception
+    Portals: GitHub Gist
+    RList: Major Smart Cities with Open Data Portals
+
+References
+
+Ubaldi, B. (2013), "Open Government Data: Towards Empirical Analysis of Open Government Data Initiatives", OECD Working Papers on Public Governance, No. 22, OECD Publishing, Paris, doi:10.1787/5k46bj4f03s7-en.
+"Open Government Data".
+
+    "MINICT: Open Data Portal".
+
+Categories:
+
+    Open governmentLists of websitesOpen data
+
+    This page was last edited on 14 June 2025, at 21:51 (UTC).
+    Text is available under the Creative Commons Attribution-ShareAlike 4.0 License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+    Privacy policy
+    About Wikipedia
+    Disclaimers
+    Contact Wikipedia
+    Code of Conduct
+    Developers
+    Statistics
+    Cookie statement
+    Mobile view
+
+    Wikimedia Foundation
+    Powered by MediaWiki
+

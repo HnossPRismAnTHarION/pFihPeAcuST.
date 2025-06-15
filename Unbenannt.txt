@@ -1,0 +1,1317 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1d061a
+}
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.container .box
+{
+  position: relative;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  transition: 0.5s;
+}
+
+.container .box::before
+{
+  content:' ';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+}
+
+.container .box::after
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 50;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+}
+
+.container .box:hover:before,
+.container .box:hover:after
+{
+  transform: skewX(0deg);
+  left: 20px;
+  width: calc(100% - 90px);
+  
+}
+
+.container .box:nth-child(1):before,
+.container .box:nth-child(1):after
+{
+  background: linear-gradient(315deg, #ffbc00, #ff0058)
+}
+
+.container .box:nth-child(2):before,
+.container .box:nth-child(2):after
+{
+  background: linear-gradient(315deg, #03a9f4, #ff0058)
+}
+
+.container .box:nth-child(3):before,
+.container .box:nth-child(3):after
+{
+  background: linear-gradient(315deg, #4dff03, #00d0ff)
+}
+
+.container .box span
+{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.container .box span::before
+{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.1s;  
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08)
+}
+
+.container .box:hover span::before
+{
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+.container .box span::after
+{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  transition: 0.5s;
+  animation: animate 2s ease-in-out infinite;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  animation-delay: -1s;
+}
+
+.container .box:hover span:after
+{
+  bottom: -50px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
+
+@keyframes animate
+{
+  0%, 100%
+  {
+    transform: translateY(10px);
+  }
+  
+  50%
+  {
+    transform: translate(-10px);
+  }
+}
+
+.container .box .content
+{
+  position: relative;
+  left: 0;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  transform: 0.5s;
+  color: #fff;
+}
+
+.container .box:hover .content
+{
+  left: -25px;
+  padding: 60px 40px;
+}
+
+.container .box .content h2
+{
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.container .box .content p
+{
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+}
+
+.container .box .content a
+{
+  display: inline-block;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.container .box .content a:hover
+{
+  background: #ffcf4d;
+  border: 1px solid rgba(255, 0, 88, 0.4);
+  box-shadow: 0 1px 15px rgba(1, 1, 1, 0.2);
+}
+
+CSS
+
+daraus sollen die blöcke vom geschriebenen generiert werden.
+
+HTML
+<div class="container">
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Card one</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Card two</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+  <div class="box">
+    <span></span>
+    <div class="content">
+      <h2>Card Three</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More</a>
+    </div>
+  </div>
+</div>
+  
+
+
+
+-----------------------
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 12pt;
+  font-weight: 400;
+  color: black;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background: MediumOrchid;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 400px;
+  min-height: 250px;
+  max-width: 400px;
+  max-height: 250px;
+  background: linear-gradient(
+    35deg,
+    white 0%,
+    white 84.7%,
+    MediumOrchid 85%,
+    MediumOrchid 91%,
+    white 91.3%
+  );
+  box-shadow: 0 10px 60px 0 DarkViolet, inset 0px -10px 17px 2px MediumOrchid;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+div::before {
+  position: absolute;
+  backdrop-filter: blur(5px);
+  bottom: -20px;
+  right: -20px;
+  width: 70px;
+  height: 70px;
+  content: "";
+  border-radius: 200px;
+  background: #ffffff66;
+  box-shadow: 0 10px 25px 0 DarkViolet, inset 0px -8px 15px 0px Purple;
+  border: 0.1px solid transparent;
+}
+
+div > p {
+  position: relative;
+  right: 5px;
+  font-size: 34pt;
+  font-weight: 900;
+  margin: 0;
+  padding: 20px 35px 10px 25px;
+  line-height: 36pt;
+  text-align: center;
+  color: #3d0d49;
+  align-self: center;
+  order: 2;
+}
+
+div > p > span {
+  position: absolute;
+  bottom: 4px;
+  left: 45px;
+  width: 55%;
+  height: 20px;
+  background: MediumOrchid;
+  content: "";
+  z-index: -1;
+}
+
+div > p > i {
+  color: white;
+  text-shadow: 1px 1px 0px MediumOrchid, 2px 2px 0px MediumOrchid,
+    3px 3px 0px MediumOrchid, -1px -1px 0px MediumOrchid;
+}
+
+div::after {
+  backdrop-filter: blur(5px);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-left: 20px;
+  padding-bottom: 28px;
+  top: -35px;
+  left: -23px;
+  width: 50%;
+  height: 50%;
+  background: #ffffff55;
+  content: "Claymorphism + Glassmorphism";
+  text-align: center;
+  color: #3e0d4a;
+  line-height: 16pt;
+  font-weight: 700;
+  border-radius: 15px;
+  box-shadow: 0 5px 30px 0 MediumOrchid, inset 0px -10px 20px 0px #ba55d3bb;
+  border: 0.1px solid transparent;
+}
+
+div > div {
+  all: unset;
+  position: relative;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0px 40px 30px;
+  border-radius: 15px;
+  background: url("https://picsum.photos/id/640/1280/800");
+  background-size: cover;
+  background-position: center;
+  border: 0.1px solid MediumOrchid;
+  z-index: -1;
+}
+
+div > div::before {
+  all: unset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: MediumOrchid;
+  mix-blend-mode: color;
+  border-radius: 15px;
+}
+
+div > div::after {
+  all: unset;
+}
+
+<div>
+  <p><span></span>design<br>trends<br><i>2022</i></p>
+  <div>
+  </div>
+</div>
+
+
+
+-----------
+
+UI
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(22, 20, 24);
+  color: #eee;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.nft{
+  user-select:none;
+  max-width: 300px;
+  margin: 5rem auto;
+  border: 1px solid #ffffff22;
+  background-color: #282c34;
+  background: linear-gradient(0deg, rgba(40,44,52,1) 0%, rgba(17,0,32,.5) 100%);
+  box-shadow: 0 7px 20px 5px #00000088;
+  border-radius: .7rem;
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  overflow: hidden;
+  transition: .5s all;
+  hr{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #88888855;
+    margin-top: 0;
+  }
+  ins{
+    text-decoration: none;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+    .tokenImage{
+      border-radius: .5rem;
+      max-width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .description{
+      margin: .5rem 0;
+      color: #a89ec9;
+    }
+    .tokenInfo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .price{
+        display: flex;
+        align-items: center;
+        color: #ee83e5;
+        font-weight: 700;
+        ins{
+          margin-left: -.3rem;
+          margin-right: .5rem;
+        }
+      }
+      .duration{
+        display: flex;
+        align-items: center;
+        color: #a89ec9;
+        margin-right: .2rem;
+        ins{
+          margin: .5rem;
+          margin-bottom: .4rem;
+        }
+      }
+    }
+    .creator{
+      display: flex;
+      align-items: center;
+      margin-top: .2rem;
+      margin-bottom: -.3rem;
+      ins{
+        color: #a89ec9;
+        text-decoration: none;
+      }
+      .wrapper{
+        display: flex;
+        align-items: center;
+        border: 1px solid #ffffff22;
+        padding: .3rem;
+        margin: 0;
+        margin-right: .5rem;
+        border-radius: 100%;
+        box-shadow: inset 0 0 0 4px #000000aa;
+        img{
+          border-radius: 100%;
+          border: 1px solid #ffffff22;
+          width: 2rem;
+          height: 2rem;
+          object-fit: cover;
+          margin: 0;
+        }
+      }
+    }
+  }
+  ::before{
+    position: fixed;
+    content: "";
+    box-shadow: 0 0 100px 40px #ffffff08;
+    top: -10%;
+    left: -100%;
+    transform: rotate(-45deg);
+    height: 60rem;
+    transition: .7s all;
+  }
+  &:hover{
+    border: 1px solid #ffffff44;
+    box-shadow: 0 7px 50px 10px #000000aa;
+    transform: scale(1.015);
+    filter: brightness(1.3);
+    ::before{
+      filter: brightness(.5);
+      top: -100%;
+      left: 200%;
+    }
+  }
+}
+
+.bg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  h1{
+    font-size: 20rem;
+    filter: opacity(0.5);
+  }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+  <!--  Thanks to frontendmentor.io for the challenge.  -->
+  
+<body>
+  <div class="bg">
+    <h1>Kiberbash</h1>
+  </div>
+  <div class="nft">
+    <div class='main'>
+      <img class='tokenImage' src="https://images.unsplash.com/photo-1621075160523-b936ad96132a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="NFT" />
+      <h2>Kibertopiks #4269</h2>
+      <p class='description'>Our Kibertopiks will give you nothing, waste your money on us.</p>
+      <div class='tokenInfo'>
+        <div class="price">
+          <ins>◘</ins>
+          <p>0.031 ETH</p>
+        </div>
+        <div class="duration">
+          <ins>◷</ins>
+          <p>11 days left</p>
+        </div>
+      </div>
+      <hr />
+      <div class='creator'>
+        <div class='wrapper'>
+          <img src="https://images.unsplash.com/photo-1620121692029-d088224ddc74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="Creator" />
+        </div>
+        <p><ins>Creation of</ins> Kiberbash</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+--------------------------------
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: linear-gradient(to bottom, #5d326c, #350048); /*fiolet*/
+}
+.container {
+	width: 1000px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.container .btn {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 50px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .btn a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400px;
+	z-index: 1;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+}
+.container .btn:hover a {
+	letter-spacing: 3px;
+}
+.container .btn a::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: linear-gradient(to left, rgba(255, 255, 255, 0.15), transparent);
+	transform: skewX(45deg) translate(0);
+	transition: 0.5s;
+	filter: blur(0px);
+}
+.container .btn:hover a::before {
+	transform: skewX(45deg) translate(200px);
+}
+.container .btn::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	bottom: -5px;
+	width: 30px;
+	height: 10px;
+	background: #f00;
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0.5;
+}
+.container .btn:hover::before /*lightup button*/ {
+	bottom: 0;
+	height: 50%;
+	width: 80%;
+	border-radius: 30px;
+}
+
+.container .btn::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translatex(-50%);
+	top: -5px;
+	width: 30px;
+	height: 10px;
+	background: #f00;
+	border-radius: 10px;
+	transition: 0.5s;
+	transition-delay: 0.5;
+}
+.container .btn:hover::after /*lightup button*/ {
+	top: 0;
+	height: 50%;
+	width: 80%;
+	border-radius: 30px;
+}
+.container .btn:nth-child(1)::before, /*chnage 1*/
+.container .btn:nth-child(1)::after {
+	background: #ff1f71;
+	box-shadow: 0 0 5px #ff1f71, 0 0 15px #ff1f71, 0 0 30px #ff1f71,
+		0 0 60px #ff1f71;
+}
+.container .btn:nth-child(2)::before, /* 2*/
+.container .btn:nth-child(2)::after {
+	background: #2db2ff;
+	box-shadow: 0 0 5px #2db2ff, 0 0 15px #2db2ff, 0 0 30px #2db2ff,
+		0 0 60px #2db2ff;
+}
+.container .btn:nth-child(3)::before, /* 3*/
+.container .btn:nth-child(3)::after {
+	background: #1eff45;
+	box-shadow: 0 0 5px #1eff45, 0 0 15px #1eff45, 0 0 30px #1eff45,
+		0 0 60px #1eff45;
+}
+
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glassmorphism button</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="btn"><a href="#">Read more 1</a></div>
+		<div class="btn"><a href="#" >Read more 2</a></div>
+				<div class="btn"><a href="#" >Read more 3</a></div>
+
+	</div>		
+</body>
+
+
+----------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+$deg: 55;
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background: #f6f6f6;
+}
+
+.perspective{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 800px;
+  height: 450px;
+  perspective: 1200;
+  transform-style: preserve-3d;
+  
+  .tip{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    text-align: center;
+    color: rgba(20,20,20,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translateZ(0px);
+    opacity: 1;
+  }
+  
+  &:hover{
+    .tip{
+      opacity: 0;
+    }
+    
+    .container{
+      transform: rotateY( 47deg ) rotateX(0deg) rotateZ(-5deg);
+      transition: transform 0.4s;
+    }
+    
+    .background{
+      .cont_blur{
+        transform:  translateZ(3*$deg + px);
+        transition: transform 0.4s;
+      }
+      .color{
+        transform: translateZ(5*$deg + px);
+        transition: transform 0.4s;
+      }
+      .noise{
+        transform: translateZ(7*$deg + px);
+        transition: transform 0.4s;
+        border: 1px solid rgba(0,0,0,0.3);
+      }
+    }
+    .title{
+      opacity: 1;
+    }
+  }
+}
+
+.container{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  background: url("https://resi.ze-robot.com/dl/4k/4k-desktop-wallpaper.-1280%C3%97720.jpg");
+  background-size: cover;
+  transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  transform-style: preserve-3d;
+  transition: all 0.6s;
+  
+  .background{
+    //BASE
+    width: 800px;
+    height: 450px;
+    margin-left: 120px;
+    margin-top: 50px;
+    box-shadow: 32px 45px 150px -15px rgba(0,0,0,0.14), inset 0px 0px 30px rgba(50,50,50,0.1);
+    background: white;
+    
+    .cont_blur{
+      //BLUR LAYER
+      position: absolute;
+      width: inherit;
+      height:  inherit;
+      z-index: 5;
+      transform:  translateZ(0px);
+      transition: transform 0.4s;
+      .blur{
+        position: absolute;
+        width: inherit;
+        height:  inherit;
+        background: url("https://resi.ze-robot.com/dl/4k/4k-desktop-wallpaper.-1280%C3%97720.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -125px -50px;
+        filter: blur(40px);
+      }
+    }
+    .color{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(240,240,240,0.50);
+      z-index: 10;
+      transform: translateZ(0px);
+      transition: transform 0.4s;
+    }
+    .noise{
+      position: absolute;
+      width: 800px;
+      height: 450px;
+      background: url("http://i.imgur.com/P0Kkvuv.png");
+      opacity: 1;
+      z-index: 15;
+      transform: translateZ(0px);
+      transition: transform 0.4s;
+      border: none;
+    }
+  }
+}
+
+.title{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  padding: 7px;
+  background: #222; 
+  opacity: 0;
+}
+
+<div class="perspective">
+  <div class="container">
+     <span class="title">Background</span>
+    <div class="background">
+      <span class="title">Base</span>
+      <div class="cont_blur">
+        <div class="blur"></div>
+        <span class="title">Gaussian blur</span>
+      </div>
+      <div class="color">
+        <span class="title">Color overlay</span>
+      </div>
+      <div class="noise">
+        <span class="title">Noise</span>
+      </div>
+    </div>
+  </div>
+  <span class="tip">Hover Me</span>
+</div>
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    /*     farthest-corner at 40px 1250px, */ #38dbff,
+    #417fd7,
+    #b03ab2
+  );
+  font-family: "Montserrat", sans-serif;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f0f, #f00, #00f);
+  backdrop-filter: blur(12px);
+  clip-path: circle(20% at 10% 10%);
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f0f, #f00, #00f);
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 0, 255, 0.1),
+    rgba(255, 0, 0, 0.4),
+    rgba(0, 0, 255, 0.5)
+  );
+  backdrop-filter: blur(10px);
+  z-index: -1;
+
+  clip-path: circle(30% at right 70%);
+}
+
+nav {
+  width: 90%;
+  height: 5rem;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+  backdrop-filter: blur(20px);
+  border-radius: 0 0 13px 13px;
+  /*   border-bottom: 1px solid #ccc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+
+#sphere {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+}
+#sphere:hover {
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  border-right: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+ul {
+  display: flex;
+}
+
+@font-face {
+  font-family: "Recursive";
+  src: url("https://d33wubrfki0l68.cloudfront.net/0fb48cf42677cf004e48f2608a8521a4ca06b48d/8a39e/assets/fonts/recursive-mono_casl_wght_slnt_ital--2019_11_05-00_13.woff2")
+    format("woff2-variations");
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+.link {
+  list-style: none;
+  padding: 30px;
+  transition: font-variation-settings 0.2s ease-out;
+  font-family: Recursive;
+  font-variation-settings: "CASL" 0, "MONO" 0.24, "wght" 300, "slnt" 2;
+  transition: 0.5s font-variation-settings ease-in;
+}
+.link:hover {
+  font-variation-settings: "CASL" 1, "MONO" 1, "wght" 500, "slnt" -14;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.6),
+    rgba(233, 233, 233, 0.1)
+  );
+  backdrop-filter: blur(12px);
+  border-radius: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 600px;
+  height: 400px;
+}
+.chip {
+  position: absolute;
+  top: 36%;
+  left: 10%;
+  width: 80px;
+  height: 80px;
+  background-image: url("https://img.icons8.com/plasticine/2x/sim-card-chip.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  position: absolute;
+  margin: auto;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  font-size: 7rem;
+  font-weight: 500 700;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  z-index: -1;
+}
+.logo {
+  position: absolute;
+  top: 14%;
+  left: 8%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: -1px;
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.2),
+    rgb(255, 255, 255, 0.9)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name {
+  position: absolute;
+  top: 80%;
+  left: 8%;
+  font-weight: 300;
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.2)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.number {
+  position: absolute;
+  top: 65%;
+  left: 8%;
+  font-size: 1.6rem;
+  font-weight: 300;
+  background: -webkit-linear-gradient(rgb(255, 255, 255, 0.9), transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto Mono", monospace;
+}
+
+.dolar {
+  position: absolute;
+  bottom: -22%;
+  left: 76%;
+  font-size: 10rem;
+  font-weight: 900;
+  background: -webkit-linear-gradient(
+    rgb(255, 255, 255, 0.5) 10%,
+    transparent 64%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.decoration {
+  position: absolute;
+  top: 12%;
+  left: 78%;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(to bottom right, orangered, hotpink);
+}
+.decoration:before {
+  content: "";
+  position: absolute;
+  padding: 15px;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 255, 0.5)
+  );
+  border-radius: 4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  border-left: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4),
+    -1px -1px 2px rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 4rem;
+  padding: 30px;
+  background: linear-gradient(
+    to top left,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(20px);
+  border-radius: 10px 10px 0 0;
+  border-top: 1px solid rgba(244, 244, 244, 0.2);
+  border-left: 1px solid rgba(244, 244, 244, 0.2);
+}
+
+
+
+
+import vanillaTilt from "https://cdn.skypack.dev/vanilla-tilt@1.7.0";
+
+
+
+
+<nav>
+  <div id="sphere"></div>
+  <ul id="list">
+    <li class="link"><a href="https://github.com/GutuGaluppo" target='_blank'>Github</a></li>
+    <li class="link"><a href="https://www.linkedin.com/in/augusto-galuppo-b687b824/" target="_blank">Linkedin</a></li>
+    <li class="link"><a href="https://www.instagram.com/gutugaluppo/" target=' _blank'>Instagram</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <div class="card" data-tilt data-tilt-max="10" data-tilt-speed="100" data-tilt-perspective="700">
+    <div class='logo'>GLASS CARD</div>
+    <div class="chip"></div>
+    <p class="number">5904 0000 2424 3333</p>
+    <p class="name">GUTU GALUPPO</p>
+    <div class='dolar'>&#36;</div>
+    <div class='decoration'></div>
+  </div>
+  <h1 id='glass'>Glassmorphism</h1>
+</div>
+<footer>
+
+</footer>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+
+
+
+------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #917173, #2a3b36, #432c52);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader::before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(8px);
+  position: absolute;
+  width: 140px;
+  height: 55px;
+  z-index: 20;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.274);
+  border-top: none;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.082);
+  animation: anim2 2s infinite;
+}
+
+.loader div {
+  background: rgb(228, 228, 228);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  z-index: -1;
+  animation: anim 2s infinite linear;
+  animation-delay: calc(-0.3s * var(--i));
+  transform: translateY(5px);
+  margin: 0.2em;
+}
+
+@keyframes anim {
+  0%,
+  100% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(-65px);
+  }
+}
+
+@keyframes anim2 {
+  0%,
+  100% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+
+<div class="loader">
+      <div style="--i: 1"></div>
+      <div style="--i: 2"></div>
+      <div style="--i: 3"></div>
+      <div style="--i: 4"></div>
+    </div>
+
