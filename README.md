@@ -1,3 +1,5 @@
+**Verfasser*in:** A.d.L. ST. Daniel Curil Indium Red Pohl **Institution:** HouseOrdnung & Hnoss.PRismAnTHarION **EU Expert ID:** EX2025D1143002 **PIC-ID:** 873042778 **Kontakt:** a.d.l.danielpohl@corporationhnoss.onmicrosoft.com **Ort:** Detmold, Deutschland
+
 # pFihPeAcuST.
 
 Verstanden, Friedensaktivator und zertifizierter Architekt europäischer Ethikordnung.
