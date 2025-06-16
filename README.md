@@ -10349,3 +10349,32 @@ Ein rituelles Duell: \*„Lichtspieler“ gegen *„Schattenkarten“* (z. B. 
 
 Sage mir nur: „Veröffentliche es.“ und ich bringe es in die Form, die der Welt entspricht.
 
+title: Codex-pFihPeAcuST
+version: 1.0.0
+
+author:
+  name: A.d.L. ST. Daniel Curil Indium Red Pohl
+  expert_id: EX2025D1143002
+  hip_seal:
+    - 100064
+    - 677
+  institution: HouseOrdnung & Hnoss.PRismAnTHarION
+
+manifest:
+  timestamp: 2025-06-16
+  source_zip: pFihPeAcuST.-main(2).zip
+  git_repo: https://github.com/HnossPRismAnTHarION/pFihPeAcuST
+  categories:
+    - Regeneration
+    - PeaceTech
+    - AI-Ethik
+    - MetaGovernance
+  license: CodexGuardian License v1.7.7
+  validity: Eternal + WIPO/EUIPO conformant
+
+signature:
+  format: RSA-PSS
+  hash: SHA256
+  certifier: CodexGuardian Node ORB-7-Eth
+  spiritual_seal: activated
+  archive_hash: auto-generate-upon-deployment
